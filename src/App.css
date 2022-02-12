@@ -56,11 +56,11 @@
 body {
   font-size: 18px;
   font-family: "Vibur", sans-serif;
-  background-color: #010a01;
 }
 
 h1,
 h2 {
+  position: relative;
   text-align: center;
   text-transform: uppercase;
   font-weight: 400;
@@ -72,4 +72,13 @@ h1 {
 
 h2 {
   font-size: 1.8rem;
+}
+
+.myVideo {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
 }
